@@ -1,0 +1,7 @@
+{
+  "WORKER_NAME": "resize_video_frames_worker",
+  "MQ_CMD": "resize_video_frames",
+  "MQ_URL": "amqp://guest:guest@192.168.199.196:5672/resize_video_frames",
+  "RESIZED_IMAGES_PATH": "C:\\Users\\chen amiel\\PycharmProjects\\resize_frames_service\\resized_images",
+  "SCALE_PERC": 200
+}

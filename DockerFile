@@ -1,0 +1,5 @@
+FROM python:alpine
+COPY . /src
+WORKDIR /src
+RUN pip install -r requirements.txt
+ENTRYPOINT["python", "resize_frames_worker_celery.py"]

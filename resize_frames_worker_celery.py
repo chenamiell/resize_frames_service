@@ -5,9 +5,6 @@ from resize_frames_worker.service import app
 
 CONCURRENCY = '--concurrency=1'
 WORKER = 'worker'
-A = '-A'
-SUFFIX = '-0fair'
-SERVICE_NAME = f'{settings.WORKER_NAME}.service'
 WIN_OS = 'win32'
 POOL = '--pool=solo'
 
